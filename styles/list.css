@@ -1,6 +1,8 @@
 html,body {
   height: 100%;
   width: 100%;
+  margin: 0%;
+  background-color: #e0e0e0;
 }
 .main-div {
   height: 100%;
@@ -14,6 +16,14 @@ html,body {
 .hotel-img {
   height: 200px;
   width: 250px;
+}
+.hotel-card{
+  margin: 2%;
+  background-color: rgb(132,136,139);
+  width: 40%;
+}
+#header , #footer{
+  background-color: rosybrown;
 }
 .socialmedia-img {
   height: 20px;
