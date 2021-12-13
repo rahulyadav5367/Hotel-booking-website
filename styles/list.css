@@ -3,6 +3,7 @@ html,body {
   width: 100%;
   margin: 0%;
   background-color: #e0e0e0;
+  font-family: 'Ubuntu',sans-serif;
 }
 .main-div {
   height: 100%;
@@ -13,19 +14,77 @@ html,body {
   height: 60px;
   width: 60px;
 }
+.login{
+  color: black;
+  text-decoration: none;
+  margin: 2%;
+}
 .hotel-img {
   height: 200px;
   width: 250px;
 }
 .hotel-card{
-  margin: 2%;
+  margin: 2% 5%;
   background-color: rgb(132,136,139);
   width: 40%;
+  float: left;
+  padding-top: 0;
 }
-#header , #footer{
+#header {
   background-color: rosybrown;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position:sticky;
+  top: 0;
+}
+#footer{
+  background-color: rosybrown;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position:sticky;
+  bottom: 0;
 }
 .socialmedia-img {
   height: 20px;
   width: 22px;
+}
+#social-media{
+  margin-top: 20px;
+  margin-right: 2%;
+}
+#copyright{
+  margin-top: 50px;
+}
+#contact-us{
+  margin: 2%;
+}
+#contact{
+  color: black;
+  text-decoration: none;
+}
+#views{
+  display:flex;
+  justify-content:center;
+  padding: 5px;
+  list-style-type: none;
+}
+#list-view{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-right: 20px;
+}
+#map-view{
+  text-decoration: none;
+  color: black;
+  font-weight: bold; 
+}
+.hotel1{
+  color:black;
+  text-decoration: none;
+}
+#view-map{
+  display: none;
 }

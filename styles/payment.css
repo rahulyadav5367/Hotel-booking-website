@@ -4,6 +4,8 @@ body {
   width: 100%;
   margin: 0%;
   background-color: #e0e0e0;
+  font-family: 'Ubuntu',sans-serif;
+
 }
 .main-div {
   height: 100%;
@@ -14,8 +16,26 @@ body {
   height: 60px;
   width: 60px;
 }
-#header, #footer{
+.login{
+  color: black;
+  text-decoration: none;
+  margin: 2%;
+}
+#header{
   background-color: rosybrown;
+  display: flex;
+   justify-content: space-between;
+   width: 100%;
+   position:sticky;
+   top: 0;
+}
+#footer{
+  background-color: rosybrown;
+  display: flex;
+   justify-content: space-between;
+   width: 100%;
+   position:sticky;
+   bottom: 0;
 }
 .raddison-img-detail {
   height: 500px;
@@ -39,4 +59,22 @@ body {
   border: 1px solid black;
   border-radius: 5px;
   padding: 2% 1%;
+}
+#social-media{
+  margin-top: 20px;
+  margin-right: 2%;
+}
+#copyright{
+  margin-top: 50px;
+}
+#contact-us{
+  margin: 2%;
+}
+#contact{
+  color: black;
+  text-decoration: none;
+}
+#pay-now{
+  color: black;
+  text-decoration: none;
 }
